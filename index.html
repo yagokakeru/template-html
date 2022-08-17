@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="この文章はダミーですこの文章はダミーですこの文章はダミーです">
-    <meta name="keywords" content="この文章はダミーです, この文章はダミーです, この文章はダミーです">
     <!--        ogp        -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://example.com/page.html">
@@ -40,6 +39,28 @@
     <!-- favicon -->
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Books",
+                "item": "https://example.com/books"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Science Fiction",
+                "item": "https://example.com/books/sciencefiction"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Award Winners"
+            }]
+        }
+    </script>
 </head>
 
 <body>
